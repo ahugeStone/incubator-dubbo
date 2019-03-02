@@ -25,6 +25,6 @@
     <dubbo:application name="dubbo-spring-test"/>
 
     <!-- 连接注册中心配置 -->
-    <dubbo:registry address="N/A"/>
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
 </beans>
